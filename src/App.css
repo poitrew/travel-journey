@@ -47,10 +47,12 @@ main {
 .trip {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .trip--img_container > img {
   height: 100%;
+  min-width: 125px;
   border-radius: 5px;
   object-fit: cover;
 }
